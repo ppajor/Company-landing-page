@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SuprAI</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="dist/styles/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="dist/styles/index.css" type="text/css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
+    <!-- favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+
+  <body>
+    <header class="fixed-top fixed-nav">
+      <div class="container">
+        <nav class="custom-navbar navbar navbar-expand-lg" id="nav">
+          <!-- Brand -->
+
+          <a class="logo navbar-brand" href="index.html">
+            <img src="src/img/svglogo.svg" alt="logo" />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapsibleNavbar"
+          >
+            <img src="src/img/icon-menu.png" alt="icon-menu"/>
+          </button>
+
+          <!-- Links -->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="custom-nav navbar-nav ml-auto">
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbardrop"
+                  data-toggle="dropdown"
+                >
+                  Products
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="solutionshr.html"
+                    >Solutions for HR</a
+                  >
+                  <a class="dropdown-item" href="solutionsmanagers.html"
+                    >Solutions for IT managers</a
+                  >
+                  <a class="dropdown-item" href="solutionsteam.html"
+                    >Solutions for IT teams</a
+                  >
+                  <a class="dropdown-item" href="productsopinions.html"
+                    >Opinions about our product</a
+                  >
+                </div>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="ourteam.html">Our team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="trainings.html">Trainings</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="demo.html">See a demo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section id="opinions" class="testimonials pb-5">
+      <div class="container my-5">
+        <div class="row d-flex">
+          <div class="col-12 mt-5 pt-5 pb-5 mb-3">
+            <h2 class="font-bold">Testimonials</h2>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div
+            class="testimonials-users col-md-6 d-flex flex-column justify-content-between"
+          >
+            <div
+              class="testimonials-users-card card-active d-flex align-items-center"
+              id="card1"
+              role="button"
+            >
+              <img src="src/img/member.PNG" alt="user1"/>
+              <div class="testimonials-users-card-info">
+                <h3>Joe Doe</h3>
+                <p class="testimonials-users-card-info-stan">UX Designer</p>
+              </div>
+            </div>
+            <div
+              class="testimonials-users-card d-flex align-items-center"
+              id="card2"
+              role="button"
+            >
+              <img src="src/img/member.PNG" alt="user2"/>
+              <div class="testimonials-users-card-info">
+                <h3>Joe Doe</h3>
+                <p class="testimonials-users-card-info-stan">UX Designer</p>
+              </div>
+            </div>
+            <div
+              class="testimonials-users-card d-flex align-items-center"
+              id="card3"
+              role="button"
+            >
+              <img src="src/img/member.PNG" alt="user3" />
+              <div class="testimonials-users-card-info">
+                <h3>Joe Doe</h3>
+                <p class="testimonials-users-card-info-stan">UX Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials-users-comments col-md-6 pl-5 pr-5">
+            <p class="comment-date font-thin pr-5" id="comment-date">
+              09/03/2020
+            </p>
+            <svg
+              id="stars"
+              width="109"
+              height="17"
+              viewBox="0 0 109 17"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.5 0L10.4084 5.87336L16.584 5.87336L11.5878 9.50329L13.4962 15.3766L8.5 11.7467L3.50383 15.3766L5.41219 9.50329L0.416019 5.87336L6.59163 5.87336L8.5 0Z"
+                fill="#E98815"
+              />
+              <path
+                d="M31.5 0L33.4084 5.87336L39.584 5.87336L34.5878 9.50329L36.4962 15.3766L31.5 11.7467L26.5038 15.3766L28.4122 9.50329L23.416 5.87336L29.5916 5.87336L31.5 0Z"
+                fill="#E98815"
+              />
+              <path
+                d="M54.5 0L56.4084 5.87336L62.584 5.87336L57.5878 9.50329L59.4962 15.3766L54.5 11.7467L49.5038 15.3766L51.4122 9.50329L46.416 5.87336L52.5916 5.87336L54.5 0Z"
+                fill="#E98815"
+              />
+              <path
+                d="M77.5 0L79.4084 5.87336L85.584 5.87336L80.5878 9.50329L82.4962 15.3766L77.5 11.7467L72.5038 15.3766L74.4122 9.50329L69.416 5.87336L75.5916 5.87336L77.5 0Z"
+                fill="#E98815"
+              />
+              <path
+                d="M100.5 0L102.408 5.87336L108.584 5.87336L103.588 9.50329L105.496 15.3766L100.5 11.7467L95.5038 15.3766L97.4122 9.50329L92.416 5.87336L98.5916 5.87336L100.5 0Z"
+                fill="#E98815"
+              />
+            </svg>
+            <h3
+              class="testimonials-users-comments-header font-bold"
+              id="comment-header"
+            >
+              That was super exciting!
+            </h3>
+            <p class="testimonials-users-comments-body" id="comment">
+              I’ve been interested in coding for a while but never taken the
+              jump, until now. I couldn’t recommend this course enough. I’m now
+              in the job of my dreams and so excited about the future.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STOPKA-->
+    <section id="contact" class="contactus">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="font-bold z1">Contact Us</h2>
+            <p
+              class="contactus-header-body font-thin text-center ml-auto mr-auto"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+              ullamcorper aliquam volutpat nunc molestie. Scelerisque id
+              maecenas tristique tellus, sit semper.
+            </p>
+          </div>
+          <div class="col-md-6 mb-3">
+            <h3 class="mb-4 mt-3 font-bold">
+              Contact <span class="con-color">Info</span>
+            </h3>
+
+            <div class="single-contact d-flex flex-row">
+              <div class="icon-contact">
+                <i class="fas fa-map-marker contact-ico"></i>
+              </div>
+
+              <div class="desc">
+                <p>
+                  SuprAI Innovation Sp. z o.o. ul. Gospodarcza 26, 20-213
+                  Lublin, Poland
+                </p>
+              </div>
+            </div>
+
+            <div class="single-contact d-flex flex-row">
+              <div class="icon-contact">
+                <i class="fas fa-phone contact-ico"></i>
+              </div>
+
+              <div class="desc">
+                <p>+48 123456789</p>
+              </div>
+            </div>
+
+            <div class="single-contact d-flex flex-row">
+              <div class="icon-contact">
+                <i class="fas fa-envelope contact-ico"></i>
+              </div>
+
+              <div class="desc">
+                <p>
+                  <a href="#" class="linkur">support@suprai.com</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-5 pb-5">
+            <form id="myForm" action="mail.php" method="post" class="booking-form">
+              <div class="row">
+                <div class="col-lg-12 d-flex flex-column">
+                  <input
+                    name="fname"
+                    placeholder="Name"
+                    onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Enter your name'"
+                    class="form-bord mt-3"
+                    required=""
+                    type="text"
+                  />
+                </div>
+                <div class="col-lg-12 d-flex flex-column">
+                  <input
+                    name="email"
+                    placeholder="Email"
+                    pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
+                    onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Enter email address'"
+                    class="form-bord mt-3"
+                    required=""
+                    type="email"
+                  />
+                </div>
+                <div class="col-lg-12 d-flex flex-column">
+                  <input
+                    name="subject"
+                    placeholder="Subject"
+                    onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Subject'"
+                    class="form-bord mt-3"
+                    required=""
+                    type="text"
+                  />
+                </div>
+
+                <div class="col-lg-12 d-flex flex-column">
+                  <textarea
+                    class="form-bord mt-3 msg"
+                    name="message"
+                    placeholder="Message"
+                    onfocus="this.placeholder = ''"
+                    onblur="this.placeholder = 'Message'"
+                    required=""
+                  ></textarea>
+                </div>
+                <div class="col-lg-12 d-flex justify-content-end mt-3">
+                  <input type="submit" name="submit"
+                    class="custom-button-primary font-semibold px-5 mt-3" value="SEND" 
+                  />
+                  
+                  <br />
+                </div>
+              
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer" class="footer pt-3 pb-3">
+      <div class="container">
+        <div class="row pb-3">
+          <div
+            class="col-lg-3 col-md-6 col-sm-6 d-flex justify-content-center flex-column mt-5 mb-4"
+          >
+            <h4 class="text-center">Product</h4>
+            <ul class="text-center">
+              <li class="mt-4"><a href="">Solutions for HR</a></li>
+              <li class="mt-4"><a href="">Solutions for IT managers</a></li>
+              <li class="mt-4"><a href="">Solutions for IT teams</a></li>
+            </ul>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 col-sm-6 d-flex justify-content-center flex-column mb-4"
+          >
+            <h4 class="text-center">Job offers</h4>
+            <ul class="text-center">
+              <li class="mt-4"><a href="">Who are we looking for</a></li>
+              <li class="mt-4"><a href="">Browse offers</a></li>
+            </ul>
+          </div>
+          <div
+            class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center flex-column mb-4"
+          >
+            <h4 class="text-center">Stay in touch</h4>
+            <div class="newsletter d-flex justify-content-center text-white">
+              <a href="" class="mt-4">Follow us on Facebook</a>
+            </div>
+            <div
+              class="newsletter text-white d-flex justify-content-center mt-4"
+            >
+              <p class="">Subscribe to newsletter:</p>
+
+              <form class="d-flex flex-row" id="newsForm" action="newsletter.php" method="post">
+                <input
+                  name="newsletter"
+                  class="form-newsletter"
+                  type="email"
+                  placeholder="Enter your email here"
+                  pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
+                />
+                <button class="custom-button-primary btn-news" type="submit" name="submit">
+                  <span class="icon-contact">
+                    <i class="fas fa-envelope icon-news"></i>
+                  
+                  </span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bottom-footer pt-2 pb-2">
+      <div class="container">
+        <div class="row">
+          <div class="bottom-footer-contact col-lg-6 col-md-12">
+            <p class="my-1 mt-3">
+              SuprAI Innovation Sp. z o.o. ul. Gospodarcza 26, 20-213 Lublin,
+              Poland
+            </p>
+            <p class="my-1">+48 123456789</p>
+            <p class="my-1 mb-3">support@suprai.com</p>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 d-flex justify-content-center mt-4 pt-3"
+          >
+            Copyright © 2020 SuprAI
+          </div>
+          <div
+            class="col-lg-3 col-md-6 d-flex justify-content-center mt-4 pt-3 bottom-links"
+          >
+            <a href="privacy.html">Privacy</a> | <a href="">Site map</a> |
+            <a href="press.html">For press</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -->
+    <script src="testimonial-slider.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  </body>
+</html>
