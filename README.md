@@ -1,2 +1,2 @@
 # SuprAI_WWW
-Just clone and run index.html!
+Just clone and click index.html!
