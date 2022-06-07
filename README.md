@@ -1,2 +1,3 @@
-# SuprAI_WWW
+# SuprAI Landing Page
+</br>
 Just clone and click index.html!
